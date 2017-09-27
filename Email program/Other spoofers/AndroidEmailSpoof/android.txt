@@ -1,0 +1,3 @@
+title=Email Spoofer
+author=Kresten Laust
+orientation=portrait
