@@ -1,0 +1,3 @@
+title=Draw away
+author=Kresten Laust
+orientation=portrait
