@@ -1,0 +1,2 @@
+# EmailSpoofer
+An email spammer
