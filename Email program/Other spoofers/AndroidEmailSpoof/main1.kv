@@ -4,6 +4,7 @@ ScreenManagement:
 	transition: FadeTransition()
 	MainScreen:
 	AnotherScreen:
+	AnotherScreen2:
 	
 <MainScreen>
 	name: "main"
@@ -22,7 +23,16 @@ ScreenManagement:
 			color: 0,2,0,1
 			font_size: 25
 			size_hint: 0.3,0.2
-			text: "Home"
-			on_release: app.root.current = "main"
+			text: "Send"
+			on_release: app.root.current = "other2", 
 			pos_hint: {"right":1,"top":1}
-			on_press: EmailSpoofer()
+
+<AnotherScreen2>
+	name: "other2"
+	Button:
+		color: 0,2,0,1
+		font_size: 25
+		size_hint: 0.3,0.2
+		text: "Main Screen"
+		on_release: app.root.current = "main", 
+		pos_hint: {"right":1,"top":1}
