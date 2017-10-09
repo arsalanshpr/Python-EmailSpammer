@@ -1,2 +1,2 @@
 # EmailSpoofer
-An email spammer
+An email spammer made by a novice programmer
