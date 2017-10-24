@@ -4,4 +4,4 @@ An email spammer made by a novice programmer.
 ### Why I made this
 I thought it was a cool project to start with.
 
-#### Currently working on: A more effective version with No gui.
+#### I recommend the NoGui version since I created the gui with tkinter as a rookie/novice.
