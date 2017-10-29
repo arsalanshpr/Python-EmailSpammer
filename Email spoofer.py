@@ -49,14 +49,14 @@ def callback():
     print("hi")
 
 def grayouthotmail():
-    e5.configure(state=DISABLED)
+        e5.configure(state=DISABLED)
         smtpserver = '"smtp.live.com:587"'
-	print smtpserver
+        print smtpserver
 	
 def grayoutgmail():
-	e5.configure(state=DISABLED)
-	smtpserver = '"smtp.gmail.com:587"'
-	print smtpserver
+        e5.configure(state=DISABLED)
+        smtpserver = '"smtp.gmail.com:587"'
+        print smtpserver
 	
 def grayoutyahoo():
 	e5.configure(state=DISABLED)
@@ -64,11 +64,11 @@ def grayoutyahoo():
 	print smtpserver
 
 def ungray():
-    e5.configure(state=NORMAL)
-	login = e8.get()
-	print(login)
-	if login == "admin321":
-		print ("Success") 
+        e5.configure(state=NORMAL)
+        login = e8.get()
+        print(login)
+        if login == "admin321":
+            print ("Success") 
 
 
 b = Button(master, text="Send", command=send, width=20, height=10)
