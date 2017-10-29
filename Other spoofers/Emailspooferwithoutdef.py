@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 import smtplib
 from Tkinter import *
 amount = 1

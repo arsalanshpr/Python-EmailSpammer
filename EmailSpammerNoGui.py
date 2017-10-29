@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 import smtplib, getpass, os, sys, subprocess
 amount = 1
 fromemail = "example@example.com"

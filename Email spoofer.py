@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 import smtplib
 from Tkinter import *
 amount = 1
@@ -49,7 +50,7 @@ def callback():
 
 def grayouthotmail():
     e5.configure(state=DISABLED)
-	smtpserver = '"smtp.live.com:587"'
+        smtpserver = '"smtp.live.com:587"'
 	print smtpserver
 	
 def grayoutgmail():

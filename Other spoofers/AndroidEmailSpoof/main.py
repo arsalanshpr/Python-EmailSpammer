@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 import smtplib
 from kivy.app import App
 from kivy.uix.widget import Widget
