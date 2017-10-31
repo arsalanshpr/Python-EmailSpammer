@@ -9,8 +9,8 @@ I thought it was a cool project to start with.
 ### Command-line version
 EmailSpammerCMD.py {your email} {password} {smtp server(smtp.gmail.com:587)} {reciever email} {message (in quotes)} {amount}
 
-smtpserver:
-gmail: ´smtp.gmail.com:587´
-yahoo: ´smtp.mail.yahoo.com:465´
-hotmail: ´smtp-mail.outlook.com:587´
-outlook: ´smtp.live.com:587´
+#### smtpserver:
+- gmail: smtp.gmail.com:587
+- yahoo: smtp.mail.yahoo.com:465
+- hotmail: smtp-mail.outlook.com:587
+- outlook: smtp.live.com:587
