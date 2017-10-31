@@ -2,3 +2,10 @@
 *.db
 Compile.txt
 EmailSpooferDev.py
+build/Email spoofer/Email spoofer.exe.manifest
+*.toc
+*.pkg
+*.pyz
+build/Email spoofer/warnEmail spoofer.txt
+*.html
+*.spec
