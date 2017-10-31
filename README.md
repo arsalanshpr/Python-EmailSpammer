@@ -9,7 +9,7 @@ An email spammer made by a novice programmer. Remember to star, XD.
 [Email Spammer Gui Download](https://cdn.rawgit.com/kres0345/EmailSpoofer/ee176011/Email%20spoofer.py)
 
 
-#### I recommend the NoGui version since I created the gui with tkinter as a rookie/novice.
+#### I recommend the NoGui and command-line version since I created the gui with tkinter as a rookie/novice.
 
 ### Command-line version
 EmailSpammerCMD.py {your email} {password} {smtp server(smtp.gmail.com:587)} {reciever email} {message (in quotes)} {amount}
