@@ -6,10 +6,9 @@ An email spammer made by a novice programmer. Remember to star, XD.
 
 [Email Spammer Commandline Download](https://cdn.rawgit.com/kres0345/EmailSpoofer/ee176011/EmailSpammerCMD.py)
 
-[Email Spammer Gui Download](https://cdn.rawgit.com/kres0345/EmailSpoofer/ee176011/Email%20spoofer.py) [Executable](https://cdn.rawgit.com/kres0345/EmailSpoofer/caf7f3f1/executables/Email%20spoofer.exe)
+[Email Spammer Gui Download](https://cdn.rawgit.com/kres0345/EmailSpoofer/ee176011/Email%20spoofer.py) - [Executable](https://cdn.rawgit.com/kres0345/EmailSpoofer/caf7f3f1/executables/Email%20spoofer.exe)
 
 Advantage of executable is you don't need to download python
-
 #### I recommend the NoGui and command-line version since I created the gui with tkinter as a rookie/novice.
 
 ### Command-line version
