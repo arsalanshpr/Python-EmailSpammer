@@ -11,16 +11,9 @@ smtpserver = '"smtp.gmail.com:587"'
 fromemail = sys.argv[1]
 password = sys.argv[2]
 smtpserver = sys.argv[3]
-#smtpserver = raw_input("Enter smtpserver, googles is: smtp.gmail.com:587: ")
 toemail = sys.argv[4]
-#toemail = raw_input("Please enter the target email: ")
 message = sys.argv[5]
-#message = raw_input("Please enter your nice message: ")
 amount = sys.argv[6]
-#amount = raw_input("Please enter amount, a nice start is 50: ")
-#insert more here
-
-#send function VVV
 server=smtplib.SMTP(smtpserver)
 server.starttls()
 server.login(fromemail, password)
@@ -32,6 +25,3 @@ while i < int(amount):
     server.sendmail(fromemail, toemail, message)
     i = i+1
 server.quit()
-pause = raw_input("Press ENTER to restart the program, or just exit")
-os.startfile("EmailSpammerNoGui.py")
-os.system('kill $PPID')
