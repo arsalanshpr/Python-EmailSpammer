@@ -1,10 +1,9 @@
 #!/usr/local/bin/python
-import smtplib, getpass, os
-#import sys, subprocess
+import smtplib, getpass, os, sys
 amount = 1
 if sys.argv[1] == "-h" or sys.argv[1] == "-help":
     print "EmailSpammerCMD.py {your email} {password} {smtp server(smtp.gmail.com:587)} {reciever email} {message (in quots)} {amount}"
-    
+    sys.exit()
 fromemail = "example@example.com"
 username = "example@example.com"
 password = "password"
