@@ -24,4 +24,5 @@ while i < int(amount):
     print(i)
     server.sendmail(fromemail, toemail, message)
     i = i+1
+print i
 server.quit()
