@@ -4,10 +4,6 @@ amount = 1
 if sys.argv[1] == "-h" or sys.argv[1] == "-help":
     print "EmailSpammerCMD.py {your email} {password} {smtp server(smtp.gmail.com:587)} {reciever email} {message (in quots)} {amount}"
     sys.exit()
-fromemail = "example@example.com"
-username = "example@example.com"
-password = "password"
-smtpserver = '"smtp.gmail.com:587"'
 fromemail = sys.argv[1]
 password = sys.argv[2]
 smtpserver = sys.argv[3]
@@ -26,3 +22,8 @@ while i < int(amount):
     i = i+1
 print i
 server.quit()
+
+#fromemail = "example@example.com"
+#username = "example@example.com"
+#password = "password"
+#smtpserver = '"smtp.gmail.com:587"'
