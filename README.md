@@ -1,5 +1,5 @@
 # EmailSpoofer [python{2.7.14}](https://www.python.org/downloads/)
-An email spammer made by a novice programmer. Remember to star, XD.
+An email spammer made by a novice programmer(me). Remember to star, XD.
 
 ### Downloads:
 [Email Spammer No Gui Download](https://cdn.rawgit.com/kres0345/EmailSpoofer/ee176011/EmailSpammerNoGui.py)
@@ -21,4 +21,4 @@ EmailSpammerCMD.py {your email} {password} {smtp server(smtp.gmail.com:587)} {re
 - outlook: smtp.live.com:587
 
 ### Why I made this
-I thought it was a cool project to start with.
+I thought it was a cool project.
